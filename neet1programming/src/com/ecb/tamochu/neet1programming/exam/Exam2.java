@@ -1,4 +1,4 @@
-package com.ecb.tamochu.neet1programming;
+package com.ecb.tamochu.neet1programming.exam;
 
 public class Exam2 {
 
@@ -8,6 +8,10 @@ public class Exam2 {
 	public static void main(String[] args) {
 		// TODO fizzbuzz問題。
 		// Q1.1～100の数字を表示しなさい。表示は↓の関数を使う
+		
+		// 全体的にもう少しスペースを入れましょう 「i=1」→「i = 1」等
+		
+		// 一行の場合もforは{}をつけたほうが良いです
 		for (int i=1;i<101;i++)
 		System.out.println(i);
 
@@ -16,6 +20,7 @@ public class Exam2 {
 			if (i%3 == 0){
 				System.out.println("fizz");
 			} else System.out.println(i);
+			// else句も一行であっても{}をつけたほうが良いです
 
 		}
 

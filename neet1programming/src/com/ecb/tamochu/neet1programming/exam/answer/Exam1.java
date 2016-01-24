@@ -1,4 +1,4 @@
-package com.ecb.tamochu.neet1programming;
+package com.ecb.tamochu.neet1programming.exam.answer;
 
 public class Exam1 {
 
@@ -7,13 +7,12 @@ public class Exam1 {
 	 */
 	public static void main(String[] args) {
 		// TODO ここで1から100を計算する。
-		int sum;
-		sum = 0;
-		for(int i=1;i<101;i++){
-			sum = sum + i;
+		int sum = 0;
+		for (int i = 1; i <= 100; i++) {
+			sum += i;
 		}
 		System.out.println(sum);
-		
+
 	}
 
 }
