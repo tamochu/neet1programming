@@ -7,6 +7,9 @@ public class Teacher {
 	String getSubject() {
 		return "おはようございます。" + subject + "の授業を始めます";
 	}
+	String getName() {
+		return "My name is " + name;
+	}
 	
 	public static void main(String[] args) {
 		Teacher[] teachers = new Teacher[3];
@@ -31,6 +34,7 @@ public class Teacher {
 	public static void aisatsu(Teacher[] teachers){
 		for (Teacher teacher : teachers){
 			System.out.println(teacher.getSubject());
+			System.out.println(teacher.getName());
 		}
 	}
 
