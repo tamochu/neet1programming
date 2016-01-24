@@ -8,7 +8,7 @@ public class Teacher {
 		return "おはようございます。" + subject + "の授業を始めます";
 	}
 	String getName() {
-		return " My name is " + name;
+		return "My name is " + name;
 	}
 	
 	public static void main(String[] args) {
