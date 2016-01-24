@@ -1,4 +1,4 @@
-package com.ecb.tamochu.neet1programming.exam;
+ package com.ecb.tamochu.neet1programming.exam;
 
 public class Exam3 {
 
