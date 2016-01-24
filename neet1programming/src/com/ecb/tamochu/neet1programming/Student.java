@@ -33,7 +33,7 @@ public class Student {
 	}
 
 	/**
-	 * 自己紹介の関数。
+	 * 自己紹介関数。
 	 * @param students
 	 */
 	public static void shoukai(Student[] students) {
