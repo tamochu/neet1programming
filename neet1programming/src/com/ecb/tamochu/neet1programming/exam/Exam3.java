@@ -11,6 +11,9 @@ public class Exam3 {
 		// ヒント System.out.print() を使うと表示の度改行されない
 
 		char[] hello = {'H', 'e', 'l', 'l', 'o'};
+		String newHello = String.valueOf(hello);
+		System.out.print(newHello);
+		
 
 	}
 

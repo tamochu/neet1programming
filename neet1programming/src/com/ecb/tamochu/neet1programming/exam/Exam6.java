@@ -7,6 +7,7 @@ public class Exam6 {
 	 */
 	public static void main(String[] args) {
 		// TODO 関数hogeは何をしている関数か答えよ
+		//1~nの総和を求める関数
 		System.out.println(hoge(100));
 	}
 
