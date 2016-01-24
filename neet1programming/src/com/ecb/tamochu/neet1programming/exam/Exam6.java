@@ -8,6 +8,7 @@ public class Exam6 {
 	public static void main(String[] args) {
 		// TODO 関数hogeは何をしている関数か答えよ
 		//1~nの総和を求める関数
+		// 正解。再帰関数と呼ばれるものでプログラムを書く量が抑えられる場合があります。
 		System.out.println(hoge(100));
 	}
 
