@@ -1,12 +1,7 @@
 package com.ecb.tamochu.neet1programming;
 
-public class Student {
-	String name;
+public class Student extends Human {
 	int grade;
-
-	String getName() {
-		return "My name is " + name;
-	}
 
 	/**
 	 * @param args
