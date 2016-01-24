@@ -19,6 +19,6 @@ public class Exam8 {
 			}
 			System.out.println();
 		}
-
+String[] names = new String[]{"", "", ""};
 	}
 }
