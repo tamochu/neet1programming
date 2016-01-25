@@ -1,11 +1,8 @@
-package com.ecb.tamochu.neet1programming.exam;
+package com.ecb.tamochu.neet1programming.exam.answer;
 
 public class Exam9 {
 	String name;
 	int age;
-	// おそらくググったものを参考にしたのでしょうが
-	// publicはアクセス修飾子といいます。細かい説明はのちほど行います
-	// 今のところつけてもつけなくても問題ありませんがここにpublicをつけたのはとても良いです
 	public void setName(String newname){
 		name = newname;
 	}
@@ -26,11 +23,11 @@ public class Exam9 {
 		Exam9[] persons = new Exam9[2];
 
 		Exam9 takesi = new Exam9();
-		takesi.name = "takesi";// せっかく作ったsetNameメソッドを使いましょう
+		takesi.setName("takesi");
 		persons[0] = takesi;
 
 		Exam9 john = new Exam9();
-		john.name = "john";// 同上
+		john.setName("john");
 		persons[1] = john;
 
 		hyouji(persons);
