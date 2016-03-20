@@ -4,6 +4,7 @@ public class Human {
 	String name;
 
 	String getName() {
-		return "My name is " + name;
+		return "I'm " + name;
 	}
+
 }
