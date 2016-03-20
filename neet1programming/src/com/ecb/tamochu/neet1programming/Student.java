@@ -36,4 +36,13 @@ public class Student extends Human {
 			System.out.println(student.getName());
 		}
 	}
+	
+	/**
+	 * オーバーライドしたgetName関数。
+	 * @see Human.getName
+	 */
+	@Override
+	String getName() {
+		return "I'm " + name;
+	}
 }
