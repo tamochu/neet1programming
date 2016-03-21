@@ -25,7 +25,7 @@ public class Exam10 {
 		// データ
 		sudoku[0][1] = 8;
 		sudoku[0][2] = 3;
-		sudoku[0][4]  = /* ここに適切な数字を入れる */;
+		sudoku[0][4] = 5;/* ここに適切な数字を入れる */;
 		sudoku[0][5] = 1;
 		sudoku[0][6] = 7;
 		sudoku[0][7] = 4;
@@ -38,14 +38,14 @@ public class Exam10 {
 		sudoku[2][3] = 7;
 		sudoku[2][8] = 9;
 
-		sudoku[3][/* ここに適切な数字を入れる */] = 1;
+		sudoku[3][0] = 1;
 		sudoku[3][2] = 9;
 		sudoku[3][3] = 2;
 		sudoku[3][4] = 8;
 		sudoku[3][6] = 4;
 		sudoku[3][8] = 5;
 
-		sudoku[/* ここに適切な数字を入れる */][1] = 7;
+		sudoku[4][1] = 7;
 		sudoku[4][3] = 4;
 		sudoku[4][4] = 9;
 		sudoku[4][7] = 2;
@@ -90,17 +90,21 @@ public class Exam10 {
 		// |7 561 38 |
 		// |6128   94|
 		// +---------+
-		System.out.println("+------------------+");
+		System.out.println("+---------+");
 
 		for(int a = 0; a < sudoku.length; a++){
 			System.out.print("|");
 			for(int b = 0; b < sudoku[a].length; b++){
-				System.out.print(sudoku[a][b] + " ");
+				if(sudoku[a][b] != 0){
+				System.out.print(sudoku[a][b]);
+				}else{
+					System.out.print(" ");
+				}
 			}
 			System.out.print("|");
 			System.out.println();
 		}
-		System.out.println("+------------------+");
+		System.out.println("+---------+");
 
 
 
