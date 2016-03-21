@@ -13,6 +13,7 @@ public class Exam13 {
 		// √2を小数点8桁の精度で計算しなさい。
 		// つまり1.41421355～1.41421357の少数を表示できれば良い
 		// ただし求める方法はいかにある関数を実装することで行うこと
+		// 平方根とは...a = b^2のときのaに対するbのこと
 
 		long start = System.currentTimeMillis();
 		double x = mysqrt(2.0);
