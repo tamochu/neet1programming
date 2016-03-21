@@ -21,13 +21,19 @@ public class Exam10 {
 				sudoku[x][y] = 0;
 			}
 		}
+		
+		System.out.println("+------------------+");
 
 		for(int a = 0; a < sudoku.length; a++){
+			System.out.print("|");
 			for(int b = 0; b < sudoku[a].length; b++){
 				System.out.print(sudoku[a][b] + " ");
 			}
+			System.out.print("|");
 			System.out.println();
 		}
+		System.out.println("+------------------+");
+
 
 
 		// Q2.Q1で作成した状態を表示しなさい
