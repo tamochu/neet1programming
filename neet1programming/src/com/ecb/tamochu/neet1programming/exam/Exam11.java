@@ -23,6 +23,11 @@ public class Exam11 {
 				if (list[n] < list[n - 1]) {
 					// 比較対象の数が一つ前より小さければ入れ替える。
 					/* 入れ替えの処理を書くこと */
+					if(list[n] < list[n-1]){
+						int t = list[n];
+						list[n] = list[n-1];
+						list[n-1] = t; 
+					}
 					
 					
 				}
