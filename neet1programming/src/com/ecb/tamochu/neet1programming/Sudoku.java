@@ -67,6 +67,7 @@ public class Sudoku {
 		sudoku[8][7] = 9;
 		sudoku[8][8] = 4;
 
+		public static void func() {
 		System.out.println("+---------+");
 
 		for(int a = 0; a < sudoku.length; a++){
@@ -83,4 +84,5 @@ public class Sudoku {
 		}
 		System.out.println("+---------+");
 		}
+	}
 }
