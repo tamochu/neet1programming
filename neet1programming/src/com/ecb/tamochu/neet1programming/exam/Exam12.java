@@ -19,11 +19,21 @@ public class Exam12 {
 			int min = list[i];
 			int min_pos = i;
 			for (int n = i + 1; n < list.length; n++) {
-				if (/* minより小さい値があれば */) {
+				if (list[i] < min){
+					min = list[i];
+					min_pos = i;
 					/* minとmin_posをその値に変える */
 				}
+
 			}
 			/* 最小の値とi番目の値を入れ替える */
+			int tmp = list[i];
+			list[i] = min;
+			list[min_pos] = tmp;
+
+
+
+
 		}
 
 		// 結果を表示
