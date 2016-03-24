@@ -27,9 +27,10 @@ public class Exam12 {
 
 			}
 			/* 最小の値とi番目の値を入れ替える */
-			int tmp = list[i];
-			list[i] = min;
-			list[min_pos] = tmp;
+//			int tmp = list[i];
+//			list[i] = min;
+//			list[min_pos] = tmp;
+			// ここはi番目の数とmin_pos番目の数を入れ替えましょう。minはもう使いません
 
 
 
