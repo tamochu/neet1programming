@@ -21,7 +21,7 @@ public class Exam12 {
 			for (int n = i + 1; n < list.length; n++) {
 				if (list[i] < min){
 					min = list[i];
-					min_pos = i;
+					min_pos = i+1;
 					/* minとmin_posをその値に変える */
 				}
 

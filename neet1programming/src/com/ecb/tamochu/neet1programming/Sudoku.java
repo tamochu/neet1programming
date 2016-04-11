@@ -68,23 +68,48 @@ public class Sudoku {
 		sudoku[8][8] = 4;
 
 //		public static void func() {
-//		System.out.println("+---------+");
-//
-//		for(int a = 0; a < sudoku.length; a++){
-//			System.out.print("|");
-//			for(int b = 0; b < sudoku[a].length; b++){
-//				if(sudoku[a][b] != 0){
-//					System.out.print(sudoku[a][b]);
-//				}else{
-//					System.out.print(" ");
-//				}
-//			}
-//			System.out.print("|");
-//			System.out.println();
-//		}
-//		System.out.println("+---------+");
-//		}
+		
+//		
 		// Javaでは関数（mainも含む）内には関数は記述しません。
 		// クラスの直下に関数を書きましょうStudentクラスのshoukai参照
 	}
+	public void print(){
+		System.out.println("+---------+");
+		//
+				for(int a = 0; a < sudoku.length; a++){
+					System.out.print("|");
+					for(int b = 0; b < sudoku[a].length; b++){
+						if(sudoku[a][b] != 0){
+							System.out.print(sudoku[a][b]);
+						}else{
+							System.out.print(" ");
+						}
+					}
+					System.out.print("|");
+					System.out.println();
+				}
+				System.out.println("+---------+");
+				}
+	}
+	public static void printState(){
+		System.out.println("+---------+");
+		//
+				for(int a = 0; a < sudoku.length; a++){
+					System.out.print("|");
+					for(int b = 0; b < sudoku[a].length; b++){
+						if(sudoku[a][b] != 0){
+							System.out.print(sudoku[a][b]);
+						}else{
+							System.out.print(" ");
+						}
+					}
+					System.out.print("|");
+					System.out.println();
+				}
+				System.out.println("+---------+");
+				}
+
+	}
+
 }
+

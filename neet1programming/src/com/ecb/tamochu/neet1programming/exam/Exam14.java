@@ -42,6 +42,13 @@ public class Exam14 {
 	 * @return 終了するときはtrueそれ以外ならfalse。
 	 */
 	private static boolean calc(String line) {
+		if(line == "bye"){
+			break;
+			
+		}else{
+			System.out.println("Hello" + );
+		}
+		
 		return false;
 	}
 }
