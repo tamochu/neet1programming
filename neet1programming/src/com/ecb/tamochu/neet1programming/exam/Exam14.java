@@ -42,13 +42,20 @@ public class Exam14 {
 	 * @return 終了するときはtrueそれ以外ならfalse。
 	 */
 	private static boolean calc(String line) {
-		if(line == "bye"){
-			break;
-			
-		}else{
-			System.out.println("Hello" + );
-		}
+		// 文字列の比較には絶対==は使いません。equalsメソッドを呼びましょう。
+		if (line.equals("bye")) {
+			// breakはループ中で使う予約語です。
+			// この関数内ではループを抜けたいときはtrueを返します。
+			return true;
 		
+		// ヒントここにelse ifを加えますが1桁の数字前提なので
+		// } else if(line.equals("0") || line.equals("1") || …) {
+		// と書いてしまって構いません。
+		} else {
+			// lineを表示しましょう。
+			System.out.println("Hello" + line);
+		}
+
 		return false;
 	}
 }

@@ -20,9 +20,11 @@ public class Exam12 {
 			int min_pos = i;
 			for (int n = i + 1; n < list.length; n++) {
 				if (list[i] < min){
+					/* 比較するのはlist[i]でなくlist[n]です */
 					min = list[i];
+					/* minはlist[n]になります */
 					min_pos = i+1;
-					/* minとmin_posをその値に変える */
+					/* min_posはnになります */
 				}
 
 			}
