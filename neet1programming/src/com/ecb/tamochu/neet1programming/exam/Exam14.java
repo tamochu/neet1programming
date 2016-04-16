@@ -47,7 +47,12 @@ public class Exam14 {
 			// breakはループ中で使う予約語です。
 			// この関数内ではループを抜けたいときはtrueを返します。
 			return true;
-		
+		}else if(line.equals("0")|| line.equals("1")||line.equals("2")|| line.equals("3")||line.equals("4")|| line.equals("5")||line.equals("6")|| line.equals("7")||line.equals("8")|| line.equals("9")){
+			if(line.equals > answer){
+				System.out.println("small");
+			}
+				
+	
 		// ヒントここにelse ifを加えますが1桁の数字前提なので
 		// } else if(line.equals("0") || line.equals("1") || …) {
 		// と書いてしまって構いません。
