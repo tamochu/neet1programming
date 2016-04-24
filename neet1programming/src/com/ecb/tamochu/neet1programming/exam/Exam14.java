@@ -42,20 +42,15 @@ public class Exam14 {
 	 * @return 終了するときはtrueそれ以外ならfalse。
 	 */
 	private static boolean calc(String line) {
-		// 文字列の比較には絶対==は使いません。equalsメソッドを呼びましょう。
 		if (line.equals("bye")) {
-			// breakはループ中で使う予約語です。
-			// この関数内ではループを抜けたいときはtrueを返します。
 			return true;
 		}else if(line.equals("0")|| line.equals("1")||line.equals("2")|| line.equals("3")||line.equals("4")|| line.equals("5")||line.equals("6")|| line.equals("7")||line.equals("8")|| line.equals("9")){
-			if(line.equals > answer){
-				System.out.println("small");
-			}
-				
-	
-		// ヒントここにelse ifを加えますが1桁の数字前提なので
-		// } else if(line.equals("0") || line.equals("1") || …) {
-		// と書いてしまって構いません。
+//			if(line.equals > answer){
+//				System.out.println("small");
+//			}
+			// ヒント数値の比較をするためにlineをintに変換しましょう
+			// Integer.parseInt(line)すれば数値に変換可能な文字列の場合intが返ってきます
+			// それをintの変数で受け取りanswerと比較し「small」「big」「equal」を表示しましょう。
 		} else {
 			// lineを表示しましょう。
 			System.out.println("Hello" + line);
